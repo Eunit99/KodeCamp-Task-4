@@ -52,11 +52,10 @@ body {
 .container {
 	display: flex;
 	flex-direction: row;
-	width: 99vw;
-	height: 99vh;
+	width: 100vw;
+	height: 100vh;
 	padding: 0;
 	margin: 0;
-	overflow: 0;
 }
 
 /* General stylings */
@@ -90,6 +89,22 @@ body {
 
 .left-side .text-container p.heading {
 	font-family: Poppins, serif !important;
+}
+
+.left-side .credit {
+	position: absolute;
+	bottom: 0;
+	font-size: smaller;
+}
+
+.left-side .credit .red {
+	color: red;
+}
+
+.left-side .credit a:link,
+.left-side .credit a:active {
+	text-decoration: none;
+	color: #fff;
 }
 
 .right-side .logo-area-img {
